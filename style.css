@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #000000;
+  font-weight: 800;
+}
+
+body {
+  height: 100vh;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15vh;
+  gap: 5vh;
+}
+
+main .buttons {
+  display: flex;
+  gap: 15px;
+  padding: 10px;
+}
+
+main .buttons .btn-vermelho {
+  background: #ff0000;
+  border: none;
+  border-radius: 4px;
+  padding: 8px;
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+.btn-vermelho:active {
+  position: relative;
+  top: 8px;
+}
+
+main .buttons .btn-amarelo {
+  background: #ffff00;
+  border: none;
+  border-radius: 4px;
+  padding: 8px;
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+.btn-amarelo:active {
+  position: relative;
+  top: 8px;
+}
+
+main .buttons .btn-verde {
+  background: #008000;
+  border: none;
+  border-radius: 4px;
+  padding: 8px;
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+.btn-verde:active {
+  position: relative;
+  top: 8px;
+}
+
+main .buttons .btn-alto {
+  background: #808080;
+  border: none;
+  border-radius: 4px;
+  padding: 8px;
+  -webkit-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+.btn-alto:active {
+  position: relative;
+  top: 8px;
+}
